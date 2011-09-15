@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @word.name %>
+</p>
+
+<p>
+  <b>Definition:</b>
+  <%=h @word.definition %>
+</p>
+
+
+<%= link_to 'Edit', edit_word_path(@word) %> |
+<%= link_to 'Back', words_path %>
